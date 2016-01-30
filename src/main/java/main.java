@@ -4,7 +4,7 @@ public class main {
 	
 	public static void main(String [] args)
 	{
-		String testString = "You can't not be fillin this";
+		String testString = "Big booty black bitches";
 		
 		System.out.println(testString);
 	}
