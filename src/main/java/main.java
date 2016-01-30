@@ -1,17 +1,20 @@
 package main.java;
 
 import main.java.classes.Duck;
+import main.java.classes.Mallard;
+import main.java.classes.WoodDuck;
 
 public class main {
 	
 	public static void main(String [] args)
 	{
-
-
-		Duck duck = new Duck();
+		Mallard malDuck = new Mallard();
+		malDuck.quack();
+		System.out.println("it was the: " + malDuck.getType());
 		
-		duck.quack();
-		System.out.println("Am I a duck? " + duck.areADuck);
+		WoodDuck woodDuck = new WoodDuck();
+		woodDuck.quack();
+		System.out.println("it was the: " + woodDuck.getType());
 
 	}
 }
