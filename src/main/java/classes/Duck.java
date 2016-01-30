@@ -8,9 +8,12 @@ public class Duck {
 	
 	public boolean areADuck = true;
 	
+	public String typeOfDuck = "Mallard";
+	
 	public void quack(){
 		System.out.println("Quack matha fucka");
 	}
+	
 	
 
 }
