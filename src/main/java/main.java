@@ -1,11 +1,13 @@
 package main.java;
 
+import main.java.classes.Duck;
+
 public class main {
 	
 	public static void main(String [] args)
 	{
-		String testString = "You can't not be fillin this";
-		
-		System.out.println(testString);
+		Duck duck = new Duck();
+		duck.quack();
+		System.out.println("Am I a duck? " + duck.areADuck);
 	}
 }
